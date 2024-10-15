@@ -103,7 +103,13 @@ ul {
 .button:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
+  border-color: currentColor;
 }
+
+/* .button:disabled {
+  color: gray;
+  background-color: lightgray;
+} */
 
 /* Link */
 .link {
